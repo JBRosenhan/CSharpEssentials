@@ -15,19 +15,29 @@ public class Program
 		
         heroOne.health = 2;
         heroOne.powerLevel = 5;
+        heroOne.armorLevel = 10;
+        heroOne.mana = 100;
 		
         heroTwo.health = 3;
         heroTwo.powerLevel = 1;
+        heroTwo.armorLevel = 4;
+        heroTwo.mana = 150;
 		
         Console.WriteLine(heroOne.health);
         Console.WriteLine(heroOne.powerLevel);
+        Console.WriteLine(heroOne.armorLevel);
+        Console.WriteLine(heroOne.mana);
 		
         Console.WriteLine(heroTwo.health);
         Console.WriteLine(heroTwo.powerLevel);
+        Console.WriteLine(heroTwo.armorLevel);
+        Console.WriteLine(heroTwo.mana);
     }
 }
 
 public class Hero {
     public int health;
     public int powerLevel;
+    public int armorLevel;
+    public int mana;
 }//Based on the HelloWorld File, turn this into a class.
